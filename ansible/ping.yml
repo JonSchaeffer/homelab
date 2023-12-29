@@ -1,0 +1,6 @@
+---
+- name: Ping k3s Nodes
+  hosts: k3s
+  gather_facts: true
+  become: yes
+  
